@@ -10,7 +10,7 @@
  * 
  */
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParam(FOnHealthChangeDelegate, float, Health, float, MaxHealth);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnHealthChangeDelegate, float, Health, float, MaxHealth);
 
 UCLASS()
 class ABILITYSYSTEM_API UAttributeSetBase : public UAttributeSet
